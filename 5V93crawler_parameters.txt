@@ -1,0 +1,8 @@
+43                 		# maximum number of pages to be stored, exits if <= 0
+websites O          		# name of the folder to store the downloaded files, erase all files at start if second word is ”O”
+8                   		# maximum number of processes or threads to use for fetching pages, exits if <= 0
+http://www.baylor.edu		# seed urls lines 4-6
+http://www.dordt.edu
+http://www.spu.edu
+0.001 0.1             		# cos similarity threshold, percent of documents with cos similarity above threshold in order to save it, 0 - 1.0
+0.001 0.1             		# cos similarity threshold, percent of documents with cos similarity above threshold in order to follow links, 0 - 1.0
